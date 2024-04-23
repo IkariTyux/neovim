@@ -18,5 +18,5 @@ After that type ":PackerSync"; it will sync packer with the file and ainstall al
 
 Restart nvim and voilà!
 
-![Neovim](screen.png)
+![Neovim](.img/screenshot.png)
 
