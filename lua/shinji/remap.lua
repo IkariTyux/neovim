@@ -16,6 +16,8 @@ vim.keymap.set("n", "<M-down>", "<C-W>j")
 
 vim.keymap.set("n", "<M-v>", vim.cmd.vsplit)
 vim.keymap.set("n", "<M-h>", vim.cmd.split)
+vim.keymap.set("n", "<M-Home>", vim.cmd.Startify)
+vim.keymap.set("n", "<M-n>", vim.cmd.noh)
 
 vim.keymap.set("n", "<C-Left>", "<C-w><")
 vim.keymap.set("n", "<C-Right>", "<C-w>>")
