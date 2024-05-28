@@ -46,6 +46,10 @@ use 'tpope/vim-fugitive'
 
 use "mhinz/vim-startify"
 
+use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+  require("toggleterm").setup()
+end}
+
 -- LSP Zero
 use {
   'VonHeikemen/lsp-zero.nvim',
