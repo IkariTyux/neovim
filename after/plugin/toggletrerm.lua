@@ -3,6 +3,9 @@ require("toggleterm").setup{
  open_mapping = [[<C-H>]],
  direction = 'horizontal',
  autochdir = true,
+ close_on_exit = false,
 }
+
+
 
 
