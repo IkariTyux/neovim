@@ -4,7 +4,7 @@ vim.keymap.set("n", "<leader>qa", vim.cmd.quitall)
 vim.keymap.set("n", "<M-w>", vim.cmd.write)
 vim.keymap.set("n", "<M-q>", vim.cmd.BufferClose)
 vim.keymap.set("n", "<M-S-q>", vim.cmd.quit)
-vim.keymap.set("n", "<M-A-tab>", vim.cmd.BufferPrevious)
+vim.keymap.set("n", "<M-S-tab>", vim.cmd.BufferPrevious)
 vim.keymap.set("n", "<M-tab>", vim.cmd.BufferNext)
 
 --Windows movements--
