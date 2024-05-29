@@ -24,4 +24,5 @@ require("nvim-tree").setup({
 })
 
 require'nvim-lastplace'.setup{}
+require("ibl").setup()
 require("shinji.startify")
