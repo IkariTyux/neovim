@@ -4,7 +4,7 @@ vim.keymap.set("n", "<leader>qa", vim.cmd.quitall)
 vim.keymap.set("n", "<M-w>", vim.cmd.write)
 vim.keymap.set("n", "<M-q>", vim.cmd.BufferClose)
 vim.keymap.set("n", "<M-S-q>", vim.cmd.quit)
-vim.keymap.set("n", "<M-A-tab>", vim.cmd.BufferPrevious)
+vim.keymap.set("n", "<M-S-tab>", vim.cmd.BufferPrevious)
 vim.keymap.set("n", "<M-tab>", vim.cmd.BufferNext)
 
 --Windows movements--
@@ -16,8 +16,13 @@ vim.keymap.set("n", "<M-down>", "<C-W>j")
 
 vim.keymap.set("n", "<M-v>", vim.cmd.vsplit)
 vim.keymap.set("n", "<M-h>", vim.cmd.split)
+vim.keymap.set("n", "<M-Home>", vim.cmd.Startify)
+vim.keymap.set("n", "<M-n>", vim.cmd.noh)
 
 vim.keymap.set("n", "<C-Left>", "<C-w><")
 vim.keymap.set("n", "<C-Right>", "<C-w>>")
 vim.keymap.set("n", "<C-Up>", "<C-w>+")
 vim.keymap.set("n", "<C-Down>", "<C-w>-")
+
+vim.keymap.set('n', '<M-BS>', vim.cmd.ToggleTerm)
+vim.keymap.set('t', '<M-BS>', vim.cmd.ToggleTerm)

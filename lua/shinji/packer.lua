@@ -33,6 +33,9 @@ use('nvim-tree/nvim-web-devicons')
 -- Resume position
 use 'ethanholz/nvim-lastplace'
 
+use 'nosduco/remote-sshfs.nvim'
+use 'nvim-lua/plenary.nvim'
+
 -- Undotree
 use('mbbill/undotree')
 
@@ -45,6 +48,12 @@ use {
 use 'tpope/vim-fugitive'
 
 use "mhinz/vim-startify"
+
+use "lukas-reineke/indent-blankline.nvim"
+
+use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+  require("toggleterm").setup()
+end}
 
 -- LSP Zero
 use {
