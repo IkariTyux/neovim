@@ -14,7 +14,7 @@ cp -R nvim ~/.config/nvim
 ```
 
 Then inside **lua/shinji/pakcer.lua** do a `:so` and save.
-After that type `:PackerSync`; it will sync packer with the file and ainstall all plugins.
+After that type `:PackerSync`; it will sync packer with the file and install all the plugins.
 
 Restart nvim and voilà!
 
