@@ -13,8 +13,8 @@ Copy all files in **~/.config**
 cp -R nvim ~/.config/nvim
 ```
 
-Then inside **lua/shinji/pakcer.lua** do a ":so" and save.
-After that type ":PackerSync"; it will sync packer with the file and ainstall all plugins.
+Then inside **lua/shinji/pakcer.lua** do a `:so` and save.
+After that type `:PackerSync`; it will sync packer with the file and ainstall all plugins.
 
 Restart nvim and voilà!
 
