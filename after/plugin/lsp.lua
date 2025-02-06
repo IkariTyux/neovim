@@ -20,7 +20,7 @@ sources = {
 
 mapping = cmp.mapping.preset.insert({
     -- confirm completion
-    ['<M-y>'] = cmp.mapping.confirm({select = true}),
+    ['<enter>'] = cmp.mapping.confirm({select = true}),
 
     -- scroll up and down the documentation window
     ['<C-u>'] = cmp.mapping.scroll_docs(-4),
